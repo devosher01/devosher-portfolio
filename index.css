@@ -20,6 +20,7 @@ html{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 99;
 }   
 
 
@@ -147,7 +148,6 @@ html{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px ;
-    z-index: 99;
 }
 
 .sobremi .contenido-seccion{
@@ -263,8 +263,8 @@ html{
     width: 0;
     height: 100%;
     background-color: cornflowerblue;
-    z-index: -1;
     transition: 1s;
+    z-index: -1;
 }
 
 .sobremi button:hover .overlay{
